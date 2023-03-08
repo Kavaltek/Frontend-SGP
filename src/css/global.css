@@ -1,0 +1,251 @@
+@font-face {
+  font-family: CircularStdBook;
+  src: url(./../assets/fonts/CircularStdBook.ttf);
+}
+body{
+  font-family: CircularStdBook !important;
+  background: #fff !important;
+}
+.sidebar-menu-link{
+  opacity: 0.7;
+  font-family: CircularStdBook !important;
+}.icon-menu{
+  font-size: 17px !important;
+}
+.icon-menu-hear{
+  font-size: 20px !important;
+}
+.img-menu-drawer{
+  border-bottom: 1px solid  #0000001a;
+  padding: 17px;
+  margin-bottom: 10px;
+}.img-menu-drawer > img{
+  margin-top:7px;
+  margin-left: 7px;
+}.hr-menu{
+  border-bottom: 1px solid  #0000001a;
+  margin-top: 10px;
+}.appBar-menu{
+  border-bottom: 1px solid  #0000001a;
+  box-shadow: none !important;
+  padding-top: 3.7px;
+  padding-bottom: 1px;
+}.input-Controllr-menu{
+  background: #F5F5F5  !important;
+  box-shadow: none !important;
+  font-size: 15px !important;
+} .font-15{
+  font-size: 15px !important;
+} .avatar{
+  margin-left: 10px;
+}
+
+
+.description-name {
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right !important;
+  
+}
+.description-name-subUser{
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: -13px;
+}.description-name-user{
+  font-weight: 400;
+}
+.br-10{
+  border-radius: 10px !important;
+}
+.card-task{
+  background: white !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+.avatar{
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100px;
+} 
+.avatar > img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100px;
+}
+.Typography-tesk img{
+  width: 100%;
+  border-radius: 12px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+.Typography-tesk h4{
+  margin-top: 10px;
+}
+.Typography-tesk p{
+  font-size: 14px;
+  opacity: 0.6;
+}
+.Typography-tesk .coments{
+  opacity: 0.6;
+  display: flex;
+  align-items: center !important;
+}
+.Typography-tesk .coments font{
+  font-size: 13px;
+}
+.Typography-tesk .coments .icon-t{
+ margin-left: 6px !important;
+ margin-right: 6px;
+}
+.d-flex-justify-content-between {
+  display: flex;
+  justify-content: space-between !important;
+}
+.users{
+  display: flex;
+}
+.users > .avatar-users-ts{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: -6px;
+  border-radius: 100px;
+  margin-top: 5px;
+} .avatar-users-ts >img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #fff;
+  border-radius: 100px;
+}
+
+.badge-complet{
+  color: #4E9F3D;
+  background: #4d9f3d21;
+  padding: 3px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.css-e784if-MuiTypography-root {
+  margin: 0;
+  font-family: CircularStdBook !important;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: CircularStdBook !important;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.css-1pa0uf1-MuiTypography-root {
+  margin: 0;
+  font-family: CircularStdBook !important;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.css-1ohx1bp-MuiTypography-root {
+  margin: 0;
+  font-family: CircularStdBook !important;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}  .fontCircularStdBook{
+  font-family: CircularStdBook !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  font-family: CircularStdBook !important;
+}.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
+  font-family: CircularStdBook !important;
+  font-size: 15px !important;
+}.css-1d3njat-MuiTypography-root{
+  font-family: CircularStdBook !important;
+}.css-1d3njat-MuiTypography-root{
+  font-family: CircularStdBook !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+  font-family: CircularStdBook !important;
+  text-transform:capitalize !important;
+}
+.cardBodyDest .Descriptions{
+  margin-top: -20px;
+}
+.cardBodyDest .id{
+  font-size: 13px;
+  opacity: 0.5;
+}
+ .btn-dshs{
+  font-size: 13px;
+  background: none !important;
+  opacity: 0.5;
+  opacity: 1 !important;
+  padding: 0 !important;
+  margin-rights: 10px !important;
+  margin-top: -2px !important;
+  margin-bottom: -4px !important;
+}
+.btn-dshs:hover{
+  background: none !important;
+}
+.text-right{
+  text-align: right !important;
+}
+.cardDash{
+  background: #fff !important;
+  box-shadow: none !important;
+  border: 1px solid #1111111f !important;
+  border-radius: 10px !important;
+}.imgDash{
+   width: 128px;
+   height: 128px;
+   border-radius: 10px !important;
+} .imgDash > img{
+  idth: 128px;
+  height: 128px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px !important;
+}
+.calendar{
+  height: 80vh !important;
+  border: none !important;
+}
+.rbc-event, .rbc-day-slot .rbc-background-event {
+  padding: 6px !important;
+  font-size: 14px !important;
+  background-color: #FFB84C !important;
+  border: none !important;
+}
+
+.rbc-month-view {
+  position: relative;
+  /* border: 1px solid #ddd; */
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+  width: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  height: 100%;
+}
