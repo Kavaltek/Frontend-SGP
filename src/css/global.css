@@ -238,14 +238,9 @@ body{
   border: none !important;
 }
 
-.rbc-month-view {
-  position: relative;
-  /* border: 1px solid #ddd; */
-  display: flex;
-  flex-direction: column;
-  flex: 1 0;
-  width: 100%;
-  user-select: none;
-  -webkit-user-select: none;
-  height: 100%;
+.rbc-toolbar button {
+  border-radius: 4px !important;
+  margin-right: 10px !important;
+  cursor: pointer !important;
+  margin-bottom: 30px !important;
 }
