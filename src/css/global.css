@@ -244,3 +244,14 @@ body{
   cursor: pointer !important;
   margin-bottom: 30px !important;
 }
+
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+  background-image: none;
+  box-shadow: none  !important;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.rbc-month-view {
+  border: none !important;
+}
