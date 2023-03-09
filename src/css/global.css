@@ -251,7 +251,140 @@ body{
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-
 .rbc-month-view {
   border: none !important;
+}
+
+.crear-project-prox{
+  color: #6c757d !important;
+  border:1px solid #6c757d41 !important;
+  background: none !important;
+  text-transform: none !important;
+  padding-top: 10px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-family: CircularStdBook !important;
+}
+.crear-project-prox:hover{
+  border:1px solid #6c757d !important;
+}
+
+.crear-project{
+  color: #6c757d !important;
+  background: none !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+  padding-top: 10px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-family: CircularStdBook !important;
+}
+.crear-project:hover{
+  color: #323940 !important;
+}
+
+.mt-5{
+  margin-top: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calender{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+}
+.calender .date{
+  font-size: 12px;
+  margin-left: 26px;
+}
+.calender .linha{
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.137);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  width: 0.1px !important;
+}
+.taks{
+  position: absolute;
+  width: 80% !important;
+  z-index: 1;
+}
+.cad-tast{
+  display: flex;
+    height: 1rem;
+    overflow: hidden;
+    margin: 10px;
+    height: 35px;
+    font-size:14px;
+    border-radius: 0.25rem;
+}
+.cad-tast .progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px !important;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  transition: width .6s ease;
+}
+.progress-bar .text{
+ position: absolute;
+}
+.mtt-4{
+  margin-top: -15px !important;
+  opacity: 0.7;
+}
+.pp-4{
+  padding-left: 13px;
+}
+.task-grup{
+  background: #ECEFF1;
+  padding: 5px;
+  width: 150px;
+  padding-left: 20px !important;
+  border-radius: 50px;
+  margin: 10px;
+  margin-top: 30px !important;
+  font-size: 14px;
+}
+.mm-10{
+  margin-left: 100px;
+}
+
+
+
+
+
+.cad-tast-blue{
+  background: #2DB6F5;
+}
+.cad-tast-progress-blue {
+  background: #1285bb;
+}
+.cad-tast-orange{
+  background: #FFC107;
+}
+.cad-tast-progress-orange {
+  background: #a67e05;
+}
+.cad-tast-green{
+  background: #39C86A;
+}
+.cad-tast-progress-green {
+  background: #0e7933;
 }

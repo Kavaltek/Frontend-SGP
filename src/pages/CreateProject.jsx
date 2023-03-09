@@ -133,13 +133,9 @@ const CreateProject = () => {
               <h1>Criar Projecto</h1>
             </Box>
             <Box sx={{marginRight: '50px'}}>
-            <IconButton variant='outlined' color='error' >
-            <Button sx={{
-              backgroundColor: 'lightBlue'
-            }}
-            
+            <Button 
+            className="crear-project-prox"
             >Ver Projectos</Button>
-            </IconButton>
             </Box>
         </Box>
         <Box sx={{ padding: '10px 50px', backgroundColor: '#fff' }}>
@@ -177,6 +173,7 @@ const CreateProject = () => {
                                   label="Tipo de Projecto"
                                   helperText="Ecolha o tipo do projecto"
                                   onChange={(e) => { setTipo(e.target.value)}}
+                                  className="mt-5"
                                 >
                                   {selectType.map((option) => (
                                     <MenuItem key={option.value} value={option.value}>
@@ -205,6 +202,7 @@ const CreateProject = () => {
                                         label="Nome"
                                         multiline
                                         maxRows={4}
+                                        className="mt-5"
                                         onChange={(e) => {setNome(e.target.value)}}
                                       />
                                       
@@ -241,6 +239,7 @@ const CreateProject = () => {
                                               label="Privacidade"
                                               onChange={(e) => { setPrivacidade(e.target.value)}}
                                               defaultValue="EUR"
+                                              className="mt-5 mb-5"
                                               helperText="O nível de privacidade regula quem pode ingressar e ver as informações da equipe."
                                             >
                                               {selectPrivacidade.map((option) => (
@@ -272,6 +271,7 @@ const CreateProject = () => {
                                             multiline
                                             rows={4}
                                             variant="standard"
+                                            className="mt-5 mb-5"
                                           />
                                         </div>
                                       </Box>
@@ -288,11 +288,12 @@ const CreateProject = () => {
                               disabled={activeStep === 0}
                               onClick={handleBack}
                               sx={{ mr: 1 }}
+                              className="crear-project"
                             >
                               Voltar
                             </Button>
                             <Box sx={{ flex: '1 1 auto' }} />
-                            <Button onClick={handleNext} sx={{ mr: 1, backgroundColor: 'lightBlue' }}>
+                            <Button className="crear-project" onClick={handleNext} sx={{ mr: 1, backgroundColor: 'lightBlue' }}>
                               Próximo
                             </Button>
                             {activeStep !== steps.length &&
@@ -301,7 +302,7 @@ const CreateProject = () => {
                                   Passo {activeStep + 1} completo
                                 </Typography>
                               ) : (
-                                <Button
+                                <Button className="crear-project-prox"
                                 sx={{
                                   backgroundColor: 'lightBlue'
                                 }}
